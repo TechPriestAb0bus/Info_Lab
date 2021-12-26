@@ -2,10 +2,10 @@
 section .text
 global CMAIN
 CMAIN:
-mov ebp, esp    ; for correct debugging
-mov cl, -23     ; Значение переменной a
-mov ax, -28     ; Значение переменной b
-mov bl, -8      ; Значение переменной c
+mov ebp, esp        ; for correct debugging
+mov cl,  27o        ; Значение переменной a
+mov ax,  34o        ; Значение переменной b
+mov bl,  10o        ; Значение переменной c
 cmp bl, 0
 jl negative
 cmp ax, 0
