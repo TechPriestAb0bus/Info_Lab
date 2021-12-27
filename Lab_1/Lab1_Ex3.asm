@@ -1,15 +1,15 @@
 %include "io.inc"
 ;Вариант: 7
 section .data
-aa dq -1;    Абцисса точки A
-ao dq 6;    Ордината точки A
-ba dq -11;    Абцисса точки B
-bo dq 19;   Ордината точки B
-ca dq 10;    Абцисса точки C
-co dq 10;   Ордината точки C
-AB dq 0;    Квадрат длины AB
-AC dq 0;    Квадрат длины AC
-BC dq 0;    Квадрат длины BC
+aa dq -1        ;    Абцисса точки A
+ao dq 6         ;    Ордината точки A
+ba dq -11       ;    Абцисса точки B
+bo dq 19        ;    Ордината точки B
+ca dq 10        ;    Абцисса точки C
+co dq 10        ;    Ордината точки C
+AB dq 0         ;    Квадрат длины AB
+AC dq 0         ;    Квадрат длины AC
+BC dq 0         ;    Квадрат длины BC
 section .text
 global CMAIN
 CMAIN:
